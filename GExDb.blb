@@ -1,0 +1,117 @@
+{
+    "": {
+        "Profiles": [
+            {
+                "GPUS": [
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 1536
+                    },
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 768
+                    }
+                ],
+                "ProfileID": 3,
+                "ProfileName": "Default"
+            },
+            {
+                "GPUS": [
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 1536
+                    },
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 768
+                    }
+                ],
+                "ProfileID": 1,
+                "ProfileName": "Quality"
+            },
+            {
+                "GPUS": [
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 1536
+                    },
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 768,
+                        "GraphicsFeatures": [
+                            {
+                                "FeatureID": 45,
+                                "FeatureValue": "14"
+                            }
+                        ]
+                    }
+                ],
+                "ProfileID": 0,
+                "ProfileName": "Performance"
+            },
+            {
+                "GPUS": [
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 1536,
+                        "GraphicsFeatures": [
+                            {
+                                "FeatureID": 57,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 33,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 44,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 39,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 40,
+                                "FeatureValue": "66"
+                            }
+                        ]
+                    },
+                    {
+                        "AutoGraphicsFeatures": [
+                        ],
+                        "GPUBDF": 768,
+                        "GraphicsFeatures": [
+                            {
+                                "FeatureID": 57,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 33,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 44,
+                                "FeatureValue": "1"
+                            },
+                            {
+                                "FeatureID": 45,
+                                "FeatureValue": "14"
+                            }
+                        ]
+                    }
+                ],
+                "ProfileID": 4,
+                "ProfileName": "Custom"
+            }
+        ]
+    },
+    "ReleaseVersion": "25.10.25.01"
+}

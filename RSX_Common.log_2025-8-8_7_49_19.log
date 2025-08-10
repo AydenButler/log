@@ -1,0 +1,60 @@
+2025-08-08::07:49:19::603	GetEligibleDriverDetailsSize                      :90  		Get eligible drivers Size started---------------------
+
+2025-08-08::07:49:19::619	ADDL::getURLVersionJSON                           :2761	DEBUG	No Server Ip found
+
+2025-08-08::07:49:19::619	ADDL::getURLVersionJSON                           :2779	DEBUG	No Servertype found
+
+2025-08-08::07:49:19::635	ADDL::isVersionCompatible                         :767 	DEBUG	Inside local version.json parser
+
+2025-08-08::07:49:19::635	ADDL::isVersionCompatible                         :967 	DEBUG	Downloading a file from server: . Download destination: C:\Users\Butler\AppData\Local//AMD_Common//addl_details.json
+
+2025-08-08::07:49:19::635	ADDL::isVersionCompatible                         :1197	DEBUG	 addl version : 1.000000  --- dll has 1.000000 
+
+2025-08-08::07:49:19::635	ADDL::validateInput                               :234 	DEBUG	 common library version  is compatible 
+
+2025-08-08::07:49:19::635	ADDL::fillBuildInfoDetails                        :139 	DEBUG	Entered fillBuildInfo function to get the system and build details
+
+2025-08-08::07:49:19::635	GetEligibleDriverDetailsSize                      :110 	DEBUG	BuildInfo details : is_consumer - 1, is_workstation - 0, is_win10 - 1, is_win7 - 0, is_legacy_eligible - 0,   isIcafe - 0, isFalcon - 0
+
+2025-08-08::07:49:19::635	GetEligibleDriverDetailsSize                      :438 		INSIDE CONSUMER
+
+2025-08-08::07:49:19::635	GetEligibleDriverDetailsSize::<lambda_1>::operator:138 	DEBUG	System has ASIC 73DF CF 1316 1462 - 25.10.25.01-250724a-417878C-AMD-Software-Adrenalin-Edition - check for 25.10.25.01-250724a-417878C-AMD-Software-Adrenalin-Edition - 0 0
+
+2025-08-08::07:49:19::635	GetEligibleDriverDetailsSize::<lambda_1>::operator:138 	DEBUG	System has ASIC 1638 C5 1316 1462 - 23.19.23.11-250701a-417877C-AMD-Software-Adrenalin-Edition - check for 25.10.25.01-250724a-417878C-AMD-Software-Adrenalin-Edition - 1 0
+
+2025-08-08::07:49:19::635	GetEligibleDriverDetailsSize                      :472 		User has up to date pre-rdna drivers.
+
+2025-08-08::07:49:19::635	ADDL::ParseJSONfile                               :396 	DEBUG	file under checking C:\Users\Butler\AppData\Local//AMD_Common//DrvDldDetails_Consumer_WHQL_Win10_p.json
+
+2025-08-08::07:49:19::635	ADDL::updateDriverInfo                            :590 	DEBUG	Deviceidcheck---success
+
+2025-08-08::07:49:19::635	ADDL::updateDriverInfo                            :593 	DEBUG	consumer assigned recognised
+
+2025-08-08::07:49:19::635	ADDL::updateDriverInfo                            :630 	DEBUG	DEVICE 73DF-CF is  eligible for driver to 25.10.25.01-250724a-417878C-AMD-Software-Adrenalin-Edition 
+
+2025-08-08::07:49:19::635	ADDL::fillDriverInfoDetails                       :292 	DEBUG	Successfully downloaded the JSON file
+
+2025-08-08::07:49:19::635	GetEligibleDriverDetailsSize                      :592 	DEBUG	Get eligible drivers size function ended
+
+2025-08-08::07:49:19::635	GetEligibleDriverDetails                          :634 	DEBUG	Get eligible drivers started
+
+2025-08-08::07:49:19::635	GetEligibleDriverDetails                          :644 	DEBUG	Get eligible drivers function ended
+
+2025-08-08::07:49:43::183	getNewComponentsDetailsJsonURL                    :70  	DEBUG	No Server Ip found
+
+2025-08-08::07:49:43::183	getNewComponentsDetailsJsonURL                    :85  	DEBUG	No Servertype found
+
+2025-08-08::07:49:43::183	IsSmartBlurAvailableIMPL                          :2794	DEBUG	performDownloadResult:1 downloadNewComponentJsonTimeoutMS:-1
+
+2025-08-08::07:49:43::199	IsSmartBlurAvailableIMPL                          :2813		CheckIfToolIsAvaliable for AMD PrivacyView
+
+2025-08-08::07:49:43::199	AdditionalApplications::CheckIfToolIsAvaliable    :1066		Check for display driver: 25 10 25 1
+
+2025-08-08::07:49:43::199	AdditionalApplications::CheckIfToolIsAvaliable    :1067		min required driver: 22 10 0 0
+
+2025-08-08::07:49:43::199	AdditionalApplications::CheckIfToolIsAvaliable    :1068		max required driver: 99 99 65535 65535
+
+2025-08-08::07:49:43::199	AdditionalApplications::CheckIfToolIsAvaliable    :1097	DEBUG	Found supported device for AMD Privacy View: 1002 1638 C5 13161462
+
+2025-08-08::07:49:43::199	AdditionalApplications::CheckIfToolIsAvaliable    :1123		Latest AMD Privacy View = 1.2.1.0
+
